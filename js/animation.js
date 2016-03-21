@@ -1,5 +1,6 @@
 jQuery.noConflict();
 (function($) {
+  
   $(function() {
       $("#startAnimation").click(function() {
         $("#footer").text(":D");
@@ -11,6 +12,7 @@ jQuery.noConflict();
                $("#bluePng").stop();
              });
         }
+      });
   });
 
   $(function() {
@@ -19,5 +21,4 @@ jQuery.noConflict();
     });
   });
 
-});
 })(jQuery);
